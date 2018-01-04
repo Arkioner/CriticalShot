@@ -42,7 +42,7 @@ namespace CriticalShot.Managers
             GUILayout.EndArea();
         }
 
-        private static PlayerManager getPlayerManager(string playerId)
+        public static PlayerManager GetPlayerManager(string playerId)
         {
             return _players[playerId];
         }

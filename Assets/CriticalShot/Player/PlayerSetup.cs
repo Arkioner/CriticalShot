@@ -1,4 +1,5 @@
-﻿using CriticalShot.Managers;
+﻿using System;
+using CriticalShot.Managers;
 using UnityEngine;
 using UnityEngine.Networking;
 

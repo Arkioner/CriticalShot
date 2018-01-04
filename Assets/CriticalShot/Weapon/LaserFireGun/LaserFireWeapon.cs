@@ -1,12 +1,12 @@
 ﻿using UnityEngine;
 
-namespace CriticalShot.Weapon
+namespace CriticalShot.Weapon.LaserFireGun
 {
 	[System.Serializable]
 	public class LaserFireWeapon : MonoBehaviour
 	{
 		[SerializeField] private string _type = "Laser";
-		[SerializeField] private float _damage = 10f;
+		[SerializeField] private int _damage = 10;
 		[SerializeField] private float _range = 100f;
 
 		public string Type
@@ -14,7 +14,7 @@ namespace CriticalShot.Weapon
 			get { return _type; }
 		}
 
-		public float Damage
+		public int Damage
 		{
 			get { return _damage; }
 		}
